@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bulb</title>
+    <link rel="stylesheet" href="/files.css/bulb.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="/porjects_images/ori-2.png" alt="" id="img-1" />
+      <!-- <img src=/porjects_images/light-1.png" alt="" id="img-2"> -->
+    </div>
+    <button id="btn" class="btn-1" onclick="chalu()">On</button>
+    <br>
+    <!-- <h1 style="color: greenyellow;">not done</h1> -->
+    
+    <button id="btn" class="btn-1  off" onclick="bhand()">Off</button>
+    
+    <!-- <script src="/files.js/bulb.js"></script> -->
+     <script>
+      let n = document.getElementById("img-1");
+
+function chalu() {
+  if (n) {
+   
+    n.setAttribute("src", "/porjects_images/ori-1.png");
+    // n.style.width = "150px"
+    n.style.width = "350px"
+    n.style.height = "170px"
+   
+  }
+
+}
+
+function bhand() {
+  if (n) {
+    n.setAttribute("src", "/porjects_images/ori-2.png");
+    n.style.width = "110px"
+    n.style.height = "120px"
+
+  }
+}
+
+     </script>
+  </body>
+</html>
