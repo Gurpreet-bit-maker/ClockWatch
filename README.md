@@ -1,8 +1,9 @@
-﻿# ClockApp 
- this is basic clock when i was started web development
+﻿# ClockApp
 
- TECHNOLOGIES
- html,css,js
+this is basic clock when i was started web development
 
-![greets]()
-![clock]()
+TECHNOLOGIES
+html,css,js
+
+![greets](./img/greets.png)
+![clock](./img/clock.png)
